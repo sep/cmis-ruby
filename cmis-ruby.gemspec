@@ -10,7 +10,6 @@ Gem::Specification.new do |s|
   s.homepage              = 'https://github.com/UP-nxt'
   s.summary               = 'Ruby client for CMIS'
   s.license               = 'Apache-2.0'
-  s.has_rdoc              = false
 
   s.files                 = `git ls-files`.split($/)
   s.executables           = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
